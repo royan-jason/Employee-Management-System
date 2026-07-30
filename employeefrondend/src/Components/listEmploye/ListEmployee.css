@@ -1,0 +1,102 @@
+.container {
+    /* background-color: rgb(171, 195, 195); */
+    text-align: center;
+    
+    position: relative; /* add this to make button position absolute */
+    padding-top: 90px;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 25px; 
+    left: 25px; 
+    height: 50px;
+    background-color: #3b51c0;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-color: rgb(29, 33, 36);
+    font-weight: bold;
+  }
+  
+  .text {
+    font-size: 52px; /* add this to set the font size */
+    color: #2b1919; /* add this to set the font color */
+    font-weight: bold; /* add this to set the font weight */
+    
+  }
+   /* .table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    
+  } */
+/*   
+  thead {
+    display: flex;
+    justify-content: space-around;
+  
+    margin-top: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+  } */
+
+  /* thead{
+  
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+  }
+  */
+  /* .table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+  } */
+  .table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  .updateB{
+    background-color: #1560aa;
+color: white;
+height: 30px;
+width: 50px;
+font-weight: bold;
+border-radius: 5px;
+border-color: black 3px;
+font-weight: bold;
+  }
+  .deleteB{
+    background-color: rgb(185, 25, 19);
+    color: white;
+    height: 30px;
+width: 50px;
+border-radius: 5px;
+border-color: black 3px;
+font-weight: bold;
+  }
