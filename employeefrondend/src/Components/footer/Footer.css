@@ -1,11 +1,12 @@
-.footer{
-    background-color: rgb(55, 63, 113);
-    position: fixed;
-    bottom: 0;
+.footer {
+    background: var(--navy-900);
     width: 100%;
-    height: 30px;
-    text-align: center;
-    padding-top: 25px;
-    font-weight:bold ;
-    color: #e0cbcb;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9aa7bd;
+    font-size: 12.5px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
 }

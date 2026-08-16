@@ -29,8 +29,14 @@ Open cmd in backend folder: employeemangement - backend\employee-managment
 And leave it running.
 
 Open cmd in frontend folder: employeefrontend
--- npm install # it's a one time thing
+-- npm install # it's a one time thing for each project.     ## This reads package.json and downloads react-scripts and everything else into a node_modules folder; basically whatever is in your project.
 -- npm start   # will launch the host web server automatically
 
 ## Step 5.
 Add/update/delete employee.
+
+## Software Used:
+JAVA - JDK 17
+Spring Boot - v2.7.10
+React 18.2.0
+MySQL - v8.0

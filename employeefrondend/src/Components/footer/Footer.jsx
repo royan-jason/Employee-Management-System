@@ -3,11 +3,9 @@ import "./Footer.css"
 
 const FooterComponent = () => {
   return (
-    <div>
         <footer className='footer'>
-            <span>All Right Reserved &copy; {new Date().getFullYear()}</span>
+            <span>&copy; {new Date().getFullYear()} Employee Management System. All rights reserved.</span>
         </footer>
-    </div>
   )
 }
 
